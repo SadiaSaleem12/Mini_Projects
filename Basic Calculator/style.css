@@ -1,0 +1,30 @@
+.main {
+    border: 3px solid grey;
+    width: 175px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-left: 5px;
+}
+
+.result {
+    padding-top: 5px;
+    width: 100%;
+    color: black;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.clr {
+    padding-left: 5px;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 175px;
+    /* margin: 3px 3px 3px 3px; */
+}
