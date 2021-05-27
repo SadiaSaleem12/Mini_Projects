@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="circle">
+        <div class="inner">
+            <h2 id="min">0</h2>
+            <h2> : </h2>
+            <h2 id="sec">0</h2>
+            <h2> : </h2>
+            <h2 id="msec">0</h2>
+        </div>
+    </div>
+    <div class="btn">
+        <button id="btn1" onclick="start(),disablebtn1()">Start</button>
+        <button id="btn2" onclick="pause(),disablebtn2()">Pause</button>
+        <button id="btn3" onclick="reset(),disablebtn3()">Reset</button>
+    </div>
+    <script src="object.js">
+    </script>
+
+
+</body>
+
+</html>
